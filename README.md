@@ -1,12 +1,12 @@
-# minicursoPython
+# Python-ProjetosAtividades
 
-<p align="center">
+<p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=py" /> 
   </a>
 </p>
 
-Este repositório foi criado para armazenar ideias e atividades desenvolvidas durante um minicurso de Python.
+Este repositório foi criado para armazenar ideias e atividades desenvolvidas em Python.
 
 ## Conteúdo
 
