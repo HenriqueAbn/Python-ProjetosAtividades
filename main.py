@@ -20,3 +20,27 @@ elif(calcNotaFinal < 6.00):
     print("Você não passou.")
 else:
     print("Dados Inválidos")
+
+    
+ print("Crie sua própria Máfia!")
+
+print("Modelos de Máfia:")
+print("1 - Máfia Italiana")
+print("2 - Cartel Mexicano")
+modeloEscolhido = int(input("Qual modelo você deseja? (Escolha pelo número correspondente) "))
+
+if (modeloEscolhido == 1):
+    nomeFamiliaMafia = input(str("Qual é o nome da sua família? "))
+    don = str(input("Quem será o Don? "))
+    valorProtecao = float(input("Qual o valor que a Mafia vai cobrar por Proteção?"))
+    print(f"Sua família é {nomeFamiliaMafia} e seu Don é {don}")
+    print(f"Você vai cobrar ${valorProtecao} por 'proteção' ")
+elif (modeloEscolhido == 2):
+    nomeFamiliaCartel = input(str("Qual é o nome da sua família? "))
+    chefe = str(input("Quem será o chefe? "))
+    alucinate = str(input("Qual o alucinante que você vai produzir"))
+    valorAlucinante = float(input("Qual o valor cobrado pelo alucinate? "))
+    print(f"Sua família é {nomeFamiliaCartel} e seu Don é {chefe}")
+    print(f"O alucinate produzido será {alucinate} e custará {valorAlucinante}")
+else:
+    print("Dados Inválidos")
